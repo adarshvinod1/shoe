@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[url(./images/bg.jpeg)] min-h-screen px-28 py-5">
+        <nav class="flex items-centre">
+            <img class="w-22 cursor-pointer pl-8 pt-5" src="./images/images-removebg-preview.png" alt="logo">
+            <ul class="flex-1 item-centre pl-110 pt-7 ">
+                <li class="list-none inline-block"><a class="text-white px-5" href="">Home</a></li>
+                <li class="list-none inline-block"><a class="text-white px-5" href="">About</a></li>
+                <li class="list-none inline-block"><a class="text-white px-5" href="">Contact</a></li>
+                <li class="list-none inline-block"><a class="text-white px-5" href="">Features</a></li>
+            </ul>
+            <img class="w-15" src="./images/images-removebg-preview (1).png" alt="cart">
+        </nav>
+        <!-- landing part -->
+         <div class="text-white lg:grid grid-cols-2 gap-4 mt-10 items-centre text-centre lg:text-start">
+            <div class="mt-20">
+                <h1 class="text-6xl font-semibold leading-normal mb-5">Groceries<br>Delivery in 15 minutes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid hic reiciendis dolor nisi modi, mollitia minima enim tenetur, corrupti eos rem similique eum deleniti cum molestiae ea vel vitae.</p>
+                <div class="mt-10">
+                    <a  class="bg-yellow-400 py-3 px-8 rounded-3xl font-medium mr-5 border border-yellow-400 hover:bg-transparent" href="">Order Now</a>
+                    <a class="" href="">Dwonload app &darr;</a>
+                </div>
+            </div>
+            <img class="pl-30" src="./images/images-removebg-preview (2).png" alt="">
+         </div>
+        <!-- grocery cards -->
+         <div class="my-10 text-white">
+            <h1 class="text-5xl text-center font-semibold">Popular Groceries</h1>
+            <div class="lg:grid grid-cols-3 items-center gap-4 mt-10">
+                <!-- cards -->
+                <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVQ88UMJu2jlWT4WZLkkW2TfSMiCYBl517FtYGx2ORA&s=10" alt="">
+                    <h3 class="text-lg text-black font-medium">Grocery 1</h3>
+                </div>
+                <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVQ88UMJu2jlWT4WZLkkW2TfSMiCYBl517FtYGx2ORA&s=10" alt="">
+                    <h3 class="text-lg text-black font-medium">Grocery 1</h3>
+                </div>
+                <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStVQ88UMJu2jlWT4WZLkkW2TfSMiCYBl517FtYGx2ORA&s=10" alt="no imge">
+                    <h3 class="text-lg text-black font-medium">Grocery 1</h3>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+         <div class="lg:grid grid-cols-4 text-white mb-10">
+            <div class="col-span-1">
+                <h1 class="text-2xl font-semibold">Contact us</h1>
+                <p class="my-3">info@gmail.com</p>
+                <p>+2374758345</p>
+            </div>
+            <div class="col-span-1">
+         </div>
+         <div class="col-span-2">
+            <h1 class="text-2xl font-semibold text-white">Subscribe to our mailbox</h1>
+            <div class="flex mt-3">
+                <input class="p-2 border w-full text-grey-200" type="text" placeholder="email">
+                <button class="bg-yellow-400 px-2 mx-2 rounded">Subscribe</button>
+            </div>
+         </div>
+         </div>
+         <!-- footer -->
+          <footer class="text-white text-center">&copy; all Rights Are Reserved</footer>
+    </div>
+</body>
+</html>
